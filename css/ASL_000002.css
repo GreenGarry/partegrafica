@@ -1,0 +1,44 @@
+
+
+.domanda{
+    font-family: "Calibri"; 
+	font-size: 14px; 
+	color:rgb(31,73,125);
+}
+
+.riposte{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+	color:rgb(0,0,0);
+}
+
+.riposte:hover input ~ .checkmark{
+	color:rgb (0,0,0); 
+	background-color:rgb (198,217,241); 
+	border:rgb(85,142,213); 
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	
+}
+.container input:checked ~ .checkmark {
+    background-color: rgb(31,73,123);
+}
+
+.checkmark:after {
+    content: "\2714";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    
+    display:block;
+}
+
+
