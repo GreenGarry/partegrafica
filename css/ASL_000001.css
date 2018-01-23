@@ -10,12 +10,21 @@ body{background-color: white;
 		height: 56px;
 		float: right}
 		
-header{ border-top-width: thick;
-		border-bottom-width: thin;
+header{ border-top-width: 20px;
+		border-bottom-width: 2,5px;
 		border-top-style: solid;
 		border-bottom-style: solid}
 		
-footer{ border-top-width: thin;
-		border-top-style: solid}
+footer{ border-top-width: 2,5px;
+	border-top-style: solid;}
+
+section{ padding-left: 30px;
+	 padding-top: 25px}
 
 #hAltoSinistra{ display: inline}
+
+#START_container{ text-align: center;
+		  padding-top: 30px;
+		  padding-bottom: 20px}
+
+#START{ border-radius: 5px}
