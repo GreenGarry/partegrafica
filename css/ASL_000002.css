@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .right{
 	display: inline;
 	float: right;
@@ -14,3 +15,64 @@
 .selected{
 	display: inline-block;
 }
+=======
+form{
+	display: inline;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.domanda{
+    font-family: "Calibri"; 
+	font-size: 14px; 
+	color:rgb(31,73,125);
+}
+
+.riposte{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(0,0,0);
+}
+
+.riposte:hover input ~ .checkmark{
+	color:rgb (0,0,0); 
+	background-color:rgb(198,217,241); 
+	border:rgb(85,142,213); 
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	
+}
+.container input:checked ~ .checkmark {
+    background-color: rgb(31,73,123);
+}
+
+.checkmark:after {
+    content: "\2714";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    
+    display:block;
+}
+#hideForFunc{
+	visibility: hidden;
+}
+#avanti{
+	display: inline;
+	float: right;
+}
+#indietro{
+	display: inline;
+	float: left;
+		
+}
+
+>>>>>>> 2c7d8959b640385b494e5e7c89be2b66aae36f31
