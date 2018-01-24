@@ -24,8 +24,8 @@ header{
 }
 		
 footer{ 
-	border-top-width: 2,5px;
-	border-top-style: solid;
+	border-bottom-width: 2,5px;
+	border-bottom-style: solid;
 }
 
 section{ 

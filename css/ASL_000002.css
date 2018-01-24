@@ -1,52 +1,16 @@
-
-
-.domanda{
-    font-family: "Calibri"; 
-	font-size: 14px; 
-	color:rgb(31,73,125);
+.right{
+	display: inline;
+	float: right;
 }
-
-.riposte{
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-	color:rgb(0,0,0);
+.left{
+	display:inline;
+	float:left;
 }
-
-.riposte:hover input ~ .checkmark{
-	color:rgb (0,0,0); 
-	background-color:rgb(198,217,241); 
-	border:rgb(85,142,213); 
-	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
-	border-top-right-radius: 25px;
-	border-top-left-radius: 25px;
-	
+#center{
+	text-align: center;
+	display: inline;
+	clear: left;
 }
-.container input:checked ~ .checkmark {
-    background-color: rgb(31,73,123);
+.selected{
+	display: inline-block;
 }
-
-.checkmark:after {
-    content: "\2714";
-    position: absolute;
-    display: none;
-}
-.container input:checked ~ .checkmark:after {
-    
-    display:block;
-}
-#hideForFunc{
-	visibility: hidden;
-}
-#avanti{
-	
-}
-#indietro{
-	
-}
-

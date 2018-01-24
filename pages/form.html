@@ -10,40 +10,58 @@
 		<link rel="STYLESHEET" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
 	</head>
 	<body>
+	<!-- intestazione pagina -->
 		<header class="col-md-12"> 
 			<h2 id="hAltoSinistra">Intervista cliente</h1>
-			<!-- il logo è da spostare a destra -->
 			<img class="logo" alt="Gruppo SCAI" src="../images/logo_scai.png">
 		</header>
-		<section>
-			<div class="domanda">
-				<!-- qua metti la domanda -->
-			</div>
-			<a href="#" onclick="someFunction(); return false;"><img src="../images/avantiEnabled.png" id="avanti" alt="avantiOK"></a>
-			<form>
-				<fieldset>
-					<input
-					type="radio"
-					name="rd"
-					value="Molto importante"
-					id="MI">
-					<label for="MI" class="selected">Molto Importante</label>
+		<!-- domanda + risposte + sliders -->
+		<section class="col-md-12">
+		<!-- freccia indietro -->
+			<aside class="right col-md-3">
+				<a href="#"><img src="../images/indietroEnabled.png"></a>
+			</aside>
+			<article id="center">
+				<!-- domanda -->
+				<div class="col-md-6">
+					2.    asjdhajdfhsfhjksfhsfhsdjffjhsdfjhsdjhsdjksdjkfjhsdfjkhsjks?
+				</div>
+				<!-- risposte -->
+				<div class="col-md-6">
+					<fieldset>
+						<input
+						type="radio"
+						name="rd"
+						value="Molto importante"
+						id="MI">
+						<label for="MI" class="selected col-md-2">Molto Importante</label>
 					
-					<input type="radio"
-					name="rd"
-					value="Abbastanza importante"
-					id="AI">
-					<label for="AI" class="selected">Abbastanza importante</label>
+						<input 
+						type="radio"
+						name="rd"
+						value="Abbastanza importante"
+						id="AI">
+						<label for="AI" class="selected col-md-2">Abbastanza importante</label>
 					
-					<input type="radio"
-					name="rd"
-					value="Poco importante"
-					id="PI">
-					<label for="PI" class="selected">Poco importante</label>
-				</fieldset>
-			</form>
-			<a href="#" onclick="someFunction(); return false;"><img src="../images/indietroEnabled.png" id="indietro" alt="indietroOK"></a>
+						<input
+						type="radio"
+						name="rd"
+						value="Poco importante"
+						id="PI">
+						<label for="PI" class="selected col-md-2">Poco importante</label>
+					</fieldset>
+				</div>
+			</article>
+		<!-- freccia avanti -->
+			<aside class="left col-md-3">
+				<a href="#"><img src="../images/avantiEnabled.png"></a>
+			</aside>
 		</section>
-		<footer class="col-md-12"><button type="button" id="hideForFunc">START</button></footer>
+		<!-- pulsante di invio -->
+		<form>
+			<button type="button" id="hideForFunc">END</button>
+		</form>
+		<!-- piè di pagina -->
+		<footer class="col-md-12"></footer>
 	</body>
 </html>
