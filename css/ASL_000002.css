@@ -1,4 +1,8 @@
-
+form{
+	display: inline;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 
 .domanda{
     font-family: "Calibri"; 
@@ -14,7 +18,7 @@
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
-	color:rgb(0,0,0);
+    color: rgb(0,0,0);
 }
 
 .riposte:hover input ~ .checkmark{
@@ -44,9 +48,12 @@
 	visibility: hidden;
 }
 #avanti{
-	
+	display: inline;
+	float: right;
 }
 #indietro{
-	
+	display: inline;
+	float: left;
+		
 }
 
