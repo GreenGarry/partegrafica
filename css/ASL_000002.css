@@ -3,7 +3,7 @@
 .domanda{
     font-family: "Calibri"; 
 	font-size: 14px; 
-	color:rgb(31,73,125); 
+	color:rgb(31,73,125);
 }
 
 .riposte{
@@ -19,7 +19,7 @@
 
 .riposte:hover input ~ .checkmark{
 	color:rgb (0,0,0); 
-	background-color:rgb (198,217,241); 
+	background-color:rgb(198,217,241); 
 	border:rgb(85,142,213); 
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
@@ -40,5 +40,13 @@
     
     display:block;
 }
-
+#hideForFunc{
+	visibility: hidden;
+}
+#avanti{
+	
+}
+#indietro{
+	
+}
 

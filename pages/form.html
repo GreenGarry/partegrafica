@@ -4,23 +4,22 @@
 	<head>
 		<title>Intervista</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
-		<link rel="STYLESHEET" href="css/ASL_000002.css">
+		<link rel="STYLESHEET" href="../css/ASL_000002.css">
+		<link rel="STYLESHEET" href="../css/ASL_000001.css">
 				<!-- Bootstrap v4.0.0a CSS libs -->
 		<link rel="STYLESHEET" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
 	</head>
 	<body>
 		<header class="col-md-12"> 
-			<p>
 			<h2 id="hAltoSinistra">Intervista cliente</h1>
 			<!-- il logo è da spostare a destra -->
 			<img class="logo" alt="Gruppo SCAI" src="../images/logo_scai.png">
-			</p>
 		</header>
 		<section>
 			<div class="domanda">
 				<!-- qua metti la domanda -->
 			</div>
-			<a href="#" onclick="someFunction(); return false;"><img src="../images/avantiEnabled.png" alt="avantiOK"></a>
+			<a href="#" onclick="someFunction(); return false;"><img src="../images/avantiEnabled.png" id="avanti" alt="avantiOK"></a>
 			<form>
 				<fieldset>
 					<input
@@ -43,8 +42,8 @@
 					<label for="PI" class="selected">Poco importante</label>
 				</fieldset>
 			</form>
-			<a href="#" onclick="someFunction(); return false;"><img src="../images/indietroEnabled.png" alt="indietroOK"></a>
+			<a href="#" onclick="someFunction(); return false;"><img src="../images/indietroEnabled.png" id="indietro" alt="indietroOK"></a>
 		</section>
-		<footer class="col-md-12"><button type="button">START</button></footer>
+		<footer class="col-md-12"><button type="button" id="hideForFunc">START</button></footer>
 	</body>
 </html>
