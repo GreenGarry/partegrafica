@@ -1,0 +1,48 @@
+body{
+	background-color: white; 
+	 color: RGB(79,129,189);
+}
+	  
+*{ 
+   font-family: Calibri;
+   font-size: 30px;
+   color: RGB(79,129,189);
+}
+   
+.logo{ 
+	padding: 5px, 5px, 5px, 5px;
+	width: 143px; 
+	height: 56px;
+	float: right;
+}
+		
+header{ 
+	border-top-width: 20px;
+	border-bottom-width: 2,5px;
+	border-top-style: solid;	
+	border-bottom-style: solid
+}
+		
+footer{ 
+	border-bottom-width: 2,5px;
+	border-bottom-style: solid;
+}
+
+section{ 
+	padding-left: 30px;
+	padding-top: 25px;
+}
+
+#hAltoSinistra{
+	display: inline;
+}
+
+#START_container{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#START{
+	border-radius: 5px;
+}

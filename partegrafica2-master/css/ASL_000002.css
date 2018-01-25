@@ -1,0 +1,13 @@
+.left{
+	float: left;
+}
+.right{
+	float: left;
+}
+.center{
+	float: right;
+}
+
+#btn{
+	clear: left;
+}
