@@ -37,12 +37,12 @@ footer{
 	display: inline;
 }
 
-#START_container{
+#btnEnd_container{
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
-#START{
+#btnEnd{
 	border-radius: 5px;
 }

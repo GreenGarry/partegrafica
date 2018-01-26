@@ -5,12 +5,12 @@
 		<title>Intervista</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 		<link rel="STYLESHEET" href="../css/ASL_000002.css">
-		<link rel="STYLESHEET" href="../css/ASL_000001.css">
+		<link rel="STYLESHEET" href="../css/ASL003.css">
 				<!-- Bootstrap v4.0.0a CSS libs -->
 		<link rel="STYLESHEET" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
 	</head>
 	<body>
-		<div id="container">	
+		<div class="aaaaa">	
 			<!-- intestazione del sito -->
 			<header class="col-md-12"> 
 				<h2 id="hAltoSinistra">Intervista cliente</h1>
@@ -18,10 +18,10 @@
 				<img class="logo" alt="Gruppo SCAI" src="../images/logo_scai.png">
 			</header>
 			<div class="row"> <!-- class row --> 
-				<div class="col-4">
-					<a class="frecce"><img src="../images/indietroEnabled.png" alt="indietro"></a>
+				<div class="col-2">
+					<a id="freccia" href="#"><img src="../images/indietroEnabled.png" alt="indietro"></a>
 				</div>          
-				<div class="col-4 col-xs-6">        
+				<div class="col-8 col-xs-6">        
 					<div class="row">
 						<div class="domanda">
 							1. asid haushdashdah sdhasdajkda shdashda?
@@ -30,27 +30,32 @@
 					<div class="row">
 						<div class="col-md-4">
 						<!-- radio buttons -->
-							<label class="radio-inline risposte">
-								<input type="radio" name="optradio" class="btn">Molto Importante
+							<label class="container">Molto Importante
+								<input type="radio" name="optradio">
+								<span class="checkmark"></span>
 							</label>
 						</div>
 						<div class="col-md-4">
-							<label class="radio-inline risposte">
-								<input type="radio" name="optradio" class="btn">Abbastanza Importante
+							<label class="container">Abbastanza Importante
+								<input type="radio" name="optradio" >
+								<span class="checkmark"></span>
 							</label>
 						</div>
 						<div class="col-md-4">
-							<label class="radio-inline risposte">
-								<input type="radio" name="optradio" class="btn">Poco Importante
+							<label class="container">Poco Importante
+								<input type="radio" name="optradio">
+								<span class="checkmark"></span>
 							</label>
 						</div>
 					</div>    
 				</div>
-				<div class="col-4">
-					<a class="frecce"><img src="../images/avantiEnabled.png" alt="avanti"></a>
+				<div class="col-2" id="avanti">
+					<a href="#"><img src="../images/avantiEnabled.png" alt="avanti"></a>
 				</div>
 			</div><!-- fine class row -->
-			<button type="button">END</button>
+			<div id="btnEnd_container">
+				<button type="button" id="btnEnd">END</button>
+			</div>
   			<!-- aggiungere un bordo inferiore seguendo la foto del programma -->
  			<footer class="col-md-12"></footer>
 		</div><!-- fine class container -->

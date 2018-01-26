@@ -1,10 +1,11 @@
+
 .domanda{
     font-family: Calibri; 
  	font-size: 14px; 
  	color:rgb(31,73,125);
 }
  
-.risposte{
+.container{
     display: block;
     position: relative;
     padding-left: 35px; 
@@ -13,28 +14,46 @@
  	color:rgb(0,0,0);
     font-size: 14px;
 }
-.btn:hover input ~ .checkmark{ /*checkmark è un parametro di default per inserire la spunta nel radio button*/
+.container input{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+.checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.container:hover input ~ .checkmark{ /*checkmark è un parametro di default per inserire la spunta nel radio button*/
  	color:rgb (0,0,0); 
  	background-color:rgb (198,217,241); 
  	border:rgb(85,142,213); 
- 	border-bottom-right-radius: 25px;
- 	border-bottom-left-radius: 25px;
- 	border-top-right-radius: 25px;
- 	border-top-left-radius: 25px;
  	
 }
 .container input:checked ~ .checkmark {
-     background-color: rgb(31,73,123);
+    background-color: (0,0,0);
+	
+  
+ 	
+}
+.container input:checked ~ .checkmark {
+     background-color: rgb(31,73,125);
 }
  
 .checkmark:after {
      content: "\2714";
      position: absolute;
      display: none;
+	 color: rgb(31,73,125);
  }
 .container input:checked ~ .checkmark:after {
      
      display:block;
 }
- 
- 
+/* #freccia { */
+	/* float: right; */
+/* } */
