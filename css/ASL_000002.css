@@ -1,19 +1,18 @@
 .domanda{
-    font-family: "Calibri"; 
+    font-family: Calibri; 
  	font-size: 14px; 
  	color:rgb(31,73,125);
 }
  
-.btn{
+.risposte{
     display: block;
     position: relative;
     padding-left: 35px; 
     margin-bottom: 12px;
     cursor: pointer;
  	color:rgb(0,0,0);
-    font-size: 22px;
+    font-size: 14px;
 }
- 
 .btn:hover input ~ .checkmark{ /*checkmark è un parametro di default per inserire la spunta nel radio button*/
  	color:rgb (0,0,0); 
  	background-color:rgb (198,217,241); 

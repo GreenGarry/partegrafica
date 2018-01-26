@@ -1,6 +1,6 @@
 body{
 	background-color: white; 
-	 color: RGB(79,129,189);
+	 color: rgb(79,129,189);
 }
 	  
 *{ 
@@ -18,9 +18,9 @@ body{
 		
 header{ 
 	border-top-width: 20px;
-	border-bottom-width: 2,5px;
+	border-bottom-width: 2.5px;
 	border-top-style: solid;	
-	border-bottom-style: solid
+	border-bottom-style: solid;
 }
 		
 footer{ 
@@ -28,7 +28,7 @@ footer{
 	border-bottom-style: solid;
 }
 
-section{ 
+.container{ 
 	padding-left: 30px;
 	padding-top: 25px;
 }
