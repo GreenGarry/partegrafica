@@ -42,7 +42,7 @@
 .checkmark:after {
     content: "\2714";
     position: absolute;
-    display: none;
+  
 }
 
 /* Show the indicator (dot/circle) when checked */
