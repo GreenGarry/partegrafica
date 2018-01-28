@@ -5,60 +5,60 @@
 		<title>Intervista</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 		<link rel="STYLESHEET" href="../css/ASL_000001.css">
-
-		<link rel="STYLESHEET" href="../css/ASL_003.css">
+		<link rel="STYLESHEET" href="../css/ASL_000002.css">
 				<!-- Bootstrap v4.0.0a CSS libs -->
 		<link rel="STYLESHEET" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
 	</head>
 	<body>
-		<div class="aaaaa">	
+		<div class="cnt">	
 			<!-- intestazione del sito -->
-			<header class="col-md-12"> 
+			<header class="col-12"> 
 				<h2 id="hAltoSinistra">Intervista cliente</h1>
 				<!-- il logo è da spostare a destra -->
 				<img class="logo" alt="Gruppo SCAI" src="../images/logo_scai.png">
 			</header>
-			<div class="row"> <!-- class row --> 
-				<div class="col-2">
-					<a id="freccia" href="#"><img src="../images/indietroEnabled.png" alt="indietro"></a>
+			<div class="row" id="cont"> <!-- class row --> 
+				<div class="col-2" id="indietro" onClick="GestioneFrecce();">
+					<a><img src="../images/indietroEnabled.png" alt="indietro"></a>
 				</div>          
 				<div class="col-8 col-xs-6">        
 					<div class="row">
 						<div class="domanda">
-							1. asid haushdashdah sdhasdajkda shdashda?
+							1.	asid haushdashdah sdhasdajkda shdashda aedsdf sdftsdf sdfsdf sdfsdf sdfsdf sdfsdf ?
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-4">
 						<!-- radio buttons -->
 						<label class="container">
-							<input type="radio" name="optradio" class="button">Molto Importante
-							<span class="checkmark" ></span>
+							<input type="radio" name="optradio" class="button"><span class="text">Molto importante</span>
+							
+							<span class="checkmark"></span>
 						</label>
 						</div>
-						<div class="col-md-4">
+						<div class="col-4">
 							<label class="container">
-								<input type="radio" name="optradio" class="button">Abbastanza importante
-								<span class="checkmark" ></span>
+								<input type="radio" name="optradio" class="button"><span class="text">Abbastanza importante</span>
+								<span class="checkmark"></span>
 							</label>
 						</div>
-						<div class="col-md-4">
+						<div class="col-4">
 							<label class="container">
-								<input type="radio" name="optradio" class="button">Poco Importante
+								<input type="radio" name="optradio" class="button"><span class="text">Poco Importante</span>
 								<span class="checkmark"></span>
 							</label>
 						</div>
 					</div>    
 				</div>
 				<div class="col-2" id="avanti">
-					<a href="#"><img src="../images/avantiEnabled.png" alt="avanti"></a>
+					<a><img src="../images/avantiEnabled.png" alt="avanti" onClick="GestioneFrecce();"></a>
 				</div>
 			</div><!-- fine class row -->
 			<div id="btnEnd_container">
 				<button type="button" id="btnEnd">END</button>
 			</div>
   			<!-- aggiungere un bordo inferiore seguendo la foto del programma -->
- 			<footer class="col-md-12"></footer>
+ 			<footer class="col-12"></footer>
 		</div><!-- fine class container -->
 	</body>
 </html>
